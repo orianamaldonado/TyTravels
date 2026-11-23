@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*VARIABLES*/
+:root {
+    --font-ppal: Agbalumo, sans-serif;
+    --font-sec: Lato, sans-serif;
+    --headings: #079CB2;
+    --text: #263746;
+    --accent: #f2b66d;
+    --bg-ppal: #EAF6F8;
+    --bg-sec: #B8E0E6;
+}
+
+/*ESTILOS GENERALES*/
+body{
+    background-color:var(--bg-ppal);
+    color: var(--text);
+    font-family: var(--font-sec);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/*TITULOS*/
+.titulos {
+    font-family: var(--font-ppal);
+    color: var(--headings);
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+/*SUBTITULOS*/
+.subtitulos {
+    font-family: var(--font-sec);
+    color: var(--headings);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+/*PARRAFOS*/
+.parrafos {
+font-family: var(--font-sec);
+color: var(--text);
+font-size: 1rem;
+font-weight: 400;
+}
+
+/*ENLACES*/
+a{
+    font-family: var(--font-sec); 
+    color: var(--headings);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--accent);
+}
+
+/*HEADER*/ 
+header{
+    background-color: var(--bg-ppal);
+    padding: 20px;
+}
+
+.logo {
+    height: 32vh;
+    width: auto;
+}
+
+/*NAVEGACION*/
+ul {
+    list-style-type: none;
+}
+
+/*IMAGENES*/
+img {
+    height: 380px
+    
+    }
+
+/*MAIN*/ 
+
+/*HOME*/
+
+/*FOOTER*/ 
+footer {
+    background-color: var(--text);
+    color: var(--bg-ppal);
+    text-align: center;
+}
+
+footer .parrafos {
+    color: var(--bg-ppal)
+}
+
+/*REDES SOCIALES*/
+.rrss {
+    width: auto;
+    height: 40px;
+}
+

@@ -4,72 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Ty Travels | Contacto </title>
+    <link rel="shortcut icon" href="../assets/tytravelslogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/styles.css">
+
 </head>
 <body>
-     <header>
+    <header>
             <nav>
             <ul>
             <li>
                 <a href="../index.html">Inicio</a>
             </li>
-             <li>
+            <li>
                 <a href="./sobre-mi.html">Sobre mi</a>
             </li>
-             <li>
+            <li>
                 <a href="./proyectos.html">Proyectos</a>
             </li>
-             <li>
+            <li>
                 <a href="./faq.html">FAQ</a>
             </li>
-             <li>
+            <li>
                 <a href="./contacto.html">Contacto</a>
             </li>
             </ul>
             </nav>
-       </header>
+    </header>
 <main>
-   
+
     <section>
-        <h1>Contactanos</h1>
-        <p>Dejanos tu consulta y nos comunicaremos con vos.</p>
+        <h1 class="titulos">Contactanos</h1>
+        <p class="parrafos">Dejanos tu consulta y nos comunicaremos con vos.</p>
+
+        <figure>
+            <img src="../assets/contacto.png" alt="Personal respondiendo consultas">
+            <figcaption>Nuestro personal se comunicará para asesorarte.</figcaption>
+        </figure>
+        
+
         <form action="#" method="get">
 
             <div>
             <label for="nombre"> Nombre:</label>
-             <input id="nombre" name="nombre" required>
+            <input id="nombre" name="nombre" required>
             </div>
 
 
             <div>
-             <label for="email"> Correo electrónico:</label>
-             <input type="email" id="email" name="email" required>
-             </div>
+            <label for="email"> Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            </div>
 
 
-             <div>
-              <label for="telefono"> Teléfono:</label>
-             <input type="tel" id="telefono" name="telefono">
-             </div>
+            <div>
+            <label for="telefono"> Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+            </div>
 
 
-             <div>
-              <label for="mensaje"> Tu mensaje:</label>
+            <div>
+            <label for="mensaje"> Tu mensaje:</label>
             <textarea name="mensaje" id="mensaje" required></textarea>
             <input type="submit" value="Enviar">
             </div>
 
         </form>
     </section>
-   
+
 
 </main>
 
 
 <footer>
- <p>© 2026 Ty Travels. Todos los derechos reservados.</p>
-        <p>Seguinos en nuestras redes sociales:</p>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://www.facebook.com/">Facebook</a>   
+<p class="parrafos">© 2026 Ty Travels. Todos los derechos reservados.</p>
+        <p class="parrafos">Seguinos en nuestras redes sociales:</p>
+        <ul>
+        <li>
+        <a href="https://www.instagram.com/" target="_blank"> 
+            <img src="../assets/instagram.png" alt="Logo de Instagram" class="rrss">
+        </a>
+        </li>
+        <li>
+        <a href="https://www.facebook.com/" target="_blank"> 
+            <img src="../assets/facebook.png" alt="Logo de Facebook" class="rrss">
+        </a>
+        </li>
+        </ul>
 </footer>
 
 </body>
